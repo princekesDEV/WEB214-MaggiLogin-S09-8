@@ -1,0 +1,69 @@
+#main-div{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-head{
+    font-size: 40px;
+}
+
+#fb-btn, #google-btn{
+    display: flex;
+    color: white;
+    background-color: rgb(50, 98, 159);
+    border: 0;
+    align-items: center;
+    padding: 7px;
+    gap: 5px;
+    width: 65%;
+    margin: 50px 0px 10px 0px;
+}
+
+#google-btn{
+    margin: 0px 0px 70px 0px;
+    color: black;
+    background-color: white;
+    border: 0.5px solid rgb(150, 150, 150);
+}
+
+.btn-image{
+    height: 100%;
+    padding-right: 5px;
+    border-right: 1px solid rgb(150, 150, 150);
+}
+
+label{
+    color: grey;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 35px;
+    font-size: 15px;
+}
+
+#login-submit, #register-btn{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    border: none;
+    display: block;
+    margin: auto;
+    width: 116%;
+    padding: 20px;
+}
+
+.login-span{
+    color: rgb(255, 255, 0);
+    font-size: 18px;
+}
+
+#forgot-link{
+    color: grey;
+    margin-top: 20px;
+    padding-right: -10px;
+    display: block;
+    text-align: right;
+}
