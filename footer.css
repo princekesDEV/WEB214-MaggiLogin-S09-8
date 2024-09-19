@@ -1,0 +1,36 @@
+footer {
+    margin-top: 40px;
+  background-color: rgb(62, 43, 26);
+  padding: 5% 10%;
+  display: flex;
+  justify-content: space-around;
+  color: rgb(182, 160, 143);
+  align-items: center;
+}
+
+#footer-logos {
+  display: flex;
+  gap: 6.8%;
+}
+
+.footer-logo {
+  padding: 10px;
+  background-color: rgb(82, 64, 50);
+  border-radius: 7px;
+}
+
+#footer-lang {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.lang {
+  border: 2px solid rgb(182, 160, 143);
+  padding: 15px;
+}
+
+.footer-link {
+    margin: 0px 0px 50px 0px;
+}
+

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maggi Login</title>
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="footer.css" />
   </head>
   <body>
     <main>
@@ -53,38 +54,91 @@
               placeholder="Enter your password here *"
             /><br />
 
-            <button id="login-submit"><span class="login-span">></span> Login Via e-mail</button>
+            <button id="login-submit">
+              <span class="login-span">></span> Login Via e-mail
+            </button>
             <a id="forgot-link" href="#">Forgot Your Passwrod?</a>
           </div>
         </div>
+
+        <div class="divider"></div>
+
+        <!-- Right Side -->
         <div>
+          <div id="right-div">
+            <h1 class="right-head">Not Registered Yet?</h1>
 
+            <button id="register-btn">
+              <span class="login-span">></span> Register
+            </button>
 
-          <!-- Right Side -->
-          <div>
-            <h1>Not Registered Yet?</h1>
-
-            <button id="register-btn">Register</button>
-
-            <h2>Join Maggie Today</h2>
+            <h1 style="margin: 50px 0px; font-size: 30px" class="right-head">
+              Join Maggie Today
+            </h1>
 
             <div>
               <div>
                 <img src="image-files/correct.png" alt="" />
-                <p>Your personal newsletter with exciting recipes and ideas</p>
+                <p class="right-qoutes">
+                  Your personal newsletter with <br> exciting recipes and ideas
+                </p>
               </div>
               <div>
                 <img src="image-files/correct.png" alt="" />
-                <p>Personalize your newsletter to your preferences</p>
+                <p class="right-qoutes">
+                  Personalize your newsletter to <br> your preferences
+                </p>
               </div>
               <div>
                 <img src="image-files/correct.png" alt="" />
-                <p>Get to know about Maggi products</p>
+                <p class="right-qoutes">Get to know about Maggi products</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </main>
+
+    <footer>
+      <div>
+        <div id="footer-logos">
+          <div class="footer-logo">
+            <img
+              src="image-files/facebook-app-symbol.png"
+              alt=""
+              width="35px"
+            />
+          </div>
+          <div class="footer-logo">
+            <img src="image-files/youtube.png" alt="" width="35px" />
+          </div>
+          <div class="footer-logo">
+            <img src="image-files/instagram (1).png" alt="" width="35px" />
+          </div>
+          <div class="footer-logo">
+            <img src="image-files/twitter.png" alt="" width="35px" />
+          </div>
+        </div>
+        <div id="footer-lang">
+          <div class="lang">ER</div>
+          <div class="lang">HI</div>
+          <div class="lang">MR</div>
+          <div class="lang">TE</div>
+          <div class="lang">KN</div>
+        </div>
+      </div>
+      <div>
+        <p class="footer-link"><span class="login-span">></span> Contact Us</p>
+        <p class="footer-link"><span class="login-span">></span> Copyright</p>
+      </div>
+      <div>
+        <p class="footer-link">
+          <span class="login-span">></span> Terms and Condition
+        </p>
+        <p class="footer-link">
+          <span class="login-span">></span> Privacy Policy
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
